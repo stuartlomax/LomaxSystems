@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lomax Systems | Microsoft 365 & Cloud Consultancy</title>
+
+<meta name="description" content="Microsoft 365 migrations, tenant deployments, Azure consulting and IT support.">
+
+<link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+    --primary:#0067B8;
+    --dark:#1b1b1b;
+    --light:#f5f7fa;
+    --text:#323130;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    color:var(--text);
+    line-height:1.6;
+    background:#fff;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+nav{
+    padding:20px 0;
+    background:#fff;
+    border-bottom:1px solid #eee;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+.nav-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:1.6rem;
+    font-weight:700;
+    color:var(--primary);
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:var(--text);
+    font-weight:600;
+}
+
+.hero{
+    padding:120px 0;
+    background:linear-gradient(135deg,#f8fbff,#e8f3ff);
+}
+
+.hero-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:3.5rem;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+    color:#555;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    background:var(--primary);
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.hero-card{
+    background:white;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2.4rem;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 5px 20px rgba(0,0,0,.06);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:var(--primary);
+}
+
+.about{
+    background:var(--light);
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.stat{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.stat h3{
+    color:var(--primary);
+    font-size:2rem;
+}
+
+.cta{
+    text-align:center;
+    background:var(--primary);
+    color:white;
+}
+
+.cta h2{
+    margin-bottom:20px;
+}
+
+footer{
+    background:#111;
+    color:#ccc;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.hero-grid,
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+nav ul{
+    display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav-content">
+<div class="logo">Lomax Systems</div>
+<ul>
+<li><a href="#services">Services</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</nav>
+
+<section class="hero">
+<div class="container hero-grid">
+
+<div>
+<h1>Microsoft 365 & Cloud Solutions That Work</h1>
+
+<p>
+Helping businesses migrate, secure and manage their Microsoft 365 and Azure environments with confidence.
+</p>
+
+<a href="#contact" class="btn">Request a Consultation</a>
+</div>
+
+<div class="hero-card">
+<h3>Core Expertise</h3>
+<br>
+✓ Microsoft 365 Tenant Migrations<br><br>
+✓ Azure Administration<br><br>
+✓ Identity & Access Management<br><br>
+✓ Exchange Online Migrations<br><br>
+✓ SharePoint & Teams Deployments<br><br>
+✓ Ongoing IT Support
+</div>
+
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+
+<div class="section-title">
+<h2>Our Services</h2>
+</div>
+
+<div class="services">
+
+<div class="card">
+<h3>Microsoft 365 Migrations</h3>
+<p>End-to-end tenant migrations including mailboxes, OneDrive, Teams and SharePoint.</p>
+</div>
+
+<div class="card">
+<h3>Tenant Deployments</h3>
+<p>Secure Microsoft 365 setup with licensing, compliance and security best practices.</p>
+</div>
+
+<div class="card">
+<h3>Azure Consultancy</h3>
+<p>Cloud infrastructure, governance, automation and hybrid-cloud solutions.</p>
+</div>
+
+<div class="card">
+<h3>Managed Support</h3>
+<p>Reliable support and administration for Microsoft 365 and Azure environments.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="about" class="about">
+<div class="container">
+
+<div class="about-grid">
+
+<div>
+<h2>Trusted IT Consultancy</h2>
+<br>
+<p>
+Lomax Systems provides practical Microsoft cloud expertise for organisations looking to modernise their IT infrastructure.
+</p>
+
+<br>
+
+<p>
+From tenant-to-tenant migrations to long-term support, we focus on delivering reliable solutions with minimal business disruption.
+</p>
+</div>
+
+<div class="stats">
+
+<div class="stat">
+<h3>M365</h3>
+<p>Migration Specialists</p>
+</div>
+
+<div class="stat">
+<h3>Azure</h3>
+<p>Cloud Expertise</p>
+</div>
+
+<div class="stat">
+<h3>Security</h3>
+<p>Identity & Access</p>
+</div>
+
+<div class="stat">
+<h3>Support</h3>
+<p>Ongoing Services</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="cta">
+<div class="container">
+
+<h2>Ready to Discuss Your Project?</h2>
+
+<p>
+Whether you're planning a migration or need ongoing Microsoft 365 support, we're here to help.
+</p>
+
+<br>
+
+<a href="mailto:stuart@lomax.systems" class="btn" style="background:white;color:#0067B8;">
+Contact Us
+</a>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Lomax Systems | Microsoft 365 & Cloud Consultancy</p>
+</footer>
+
+</body>
+</html>
